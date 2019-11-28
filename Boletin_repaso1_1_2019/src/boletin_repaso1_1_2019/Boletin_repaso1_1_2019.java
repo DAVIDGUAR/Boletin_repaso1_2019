@@ -17,7 +17,11 @@ public class Boletin_repaso1_1_2019 {
     public static void main(String[] args) {
         
         
-        
+        for(int i=0;i<5;i++){
+            
+            
+            System.out.println("Ito e un bucle");
+        }
         
     }
     
