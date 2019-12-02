@@ -5,6 +5,11 @@
  */
 package boletin_repaso1_4_2019;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 /**
  *
  * @author david
@@ -15,7 +20,24 @@ public class Boletin_repaso1_4_2019 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        Scanner ler = new Scanner(System.in);
+        
+       int [] mi_array = new int[4];
+        
+       int num;
+       
+       do{
+           
+           num=ler.nextInt();
+           
+           
+           
+       } while (num>0);
+        
+        
+        System.out.println("Numero negativo ERROR");
+        
     }
     
 }
