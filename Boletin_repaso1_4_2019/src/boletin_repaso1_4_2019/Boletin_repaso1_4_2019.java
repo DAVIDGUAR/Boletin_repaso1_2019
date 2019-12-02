@@ -20,24 +20,30 @@ public class Boletin_repaso1_4_2019 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+
         Scanner ler = new Scanner(System.in);
-        
-       int [] mi_array = new int[4];
-        
-       int num;
-       
-       do{
-           
-           num=ler.nextInt();
-           
-           
-           
-       } while (num>0);
-        
-        
-        System.out.println("Numero negativo ERROR");
-        
+
+        int[] mi_array = new int[4];
+
+        int num = 0;
+
+        for (int i = 0; i < mi_array.length; i++) {
+            
+            num = ler.nextInt();
+            
+            if (num >= 0) {
+                
+                mi_array[i] = num;
+
+            } else {
+                System.out.println("Numero negativo ERROR");
+            }
+        }
+        for (int a : mi_array) {
+
+            System.out.print(a + " , ");
+
+        }
+
     }
-    
 }
